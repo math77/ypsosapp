@@ -1,17 +1,13 @@
-package br.edu.ifrn.ypsosapp;
+package br.edu.ifrn.ypsosapp.activitys;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-import retrofit2.Retrofit;
-
-public class LoginActivity extends AppCompatActivity {
+public class CadastroActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_login);
-
-
+        setContentView(R.layout.activity_cadastro);
     }
 }
